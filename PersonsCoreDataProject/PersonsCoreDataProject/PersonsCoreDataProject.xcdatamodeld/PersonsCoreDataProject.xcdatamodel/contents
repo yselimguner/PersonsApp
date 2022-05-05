@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Kisiler" representedClassName="Kisiler" syncable="YES" codeGenerationType="class">
+        <attribute name="kisi_ad" optional="YES" attributeType="String"/>
+        <attribute name="kisi_tel" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Persons" representedClassName="Persons" syncable="YES" codeGenerationType="class">
+        <attribute name="person_name" optional="YES" attributeType="String"/>
+        <attribute name="person_number" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Persons" positionX="-54" positionY="-9" width="128" height="59"/>
+        <element name="Kisiler" positionX="-36" positionY="27" width="128" height="59"/>
+    </elements>
+</model>
